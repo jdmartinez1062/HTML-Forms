@@ -112,3 +112,34 @@ span {
 	height: 1.1em;
     width: .9em;
 }
+
+#logos img {
+	
+	height: 1.5em;
+	
+}
+#logos div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: fit-content;
+	align-self: center;
+	margin-top: 20px;
+}
+#logos {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+#logos #main-logo {
+	display: block;
+	align-self: center;
+	height: 2.5em;
+}
+#logos p {
+	font-size: 18px;
+	opacity: 1;
+	color: #6c6d72;
+	margin-right: 10px;
+	margin-left: 5px;
+}
