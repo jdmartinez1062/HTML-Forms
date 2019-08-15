@@ -208,3 +208,33 @@ form{
 	display: inline-block;
 	font-size:10px;
 }
+#sign-up-button {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 44px;
+	margin-bottom: 50px;
+}
+#sign-up-button span {
+	align-self: center;
+
+}
+#sign-up-button p {
+	align-self: center;
+	color: white;
+	font-size: 15.75px;
+}
+
+#form-div #terms{
+	color:#757575;
+	font-size: 12px;
+}
+
+#form-div #terms a{
+	font-size: 12px;
+	margin: 0px;
+	
+}
