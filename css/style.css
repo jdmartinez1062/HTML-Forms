@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #edeef2;
 }
 ol, ul {
 	list-style: none;
@@ -47,8 +48,24 @@ table {
 	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-p {
-	align-self: center;
+main div div p {
+	color: #505050;
+	margin-right: 10px;
+	font-size: 12px;
+}
+main div div button #sign-text{
+	color: white;
+	margin-right: 0px;
+	font-size: 14px;
+}
+main div div a{
+	color:#0077c5;
+	font-size: 12px;
+	text-decoration-line: none;
+	margin-right: 10px;	
+}
+a{
+	text-decoration-line: none;
 }
 
 main #sign-in-div{
@@ -63,31 +80,35 @@ main div #sign-in {
 
 	float:right;
 	text-align: center;
-	height: min-content;
+	height: 60px;
 	display: flex;
 	align-items: center;
-
-}
-
-main div div p{
-
-	display: inline-block;
-	
+	margin-right: 30px;
 	
 }
 
 .sign-buttons {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
 	background: #0077C5;
 	border-radius: 4px;
 	border: 1px solid #4c4c4c;
 	padding: 0 20px;
-	font-size: 1.125em;
+	width:105px;
+	height:34px;
 	color: white;
 	text-align: center;
+	
 }
-
 span {
 	background-size: contain;
 	background-color: #0077c5;
-	width: 100%;
+	width: fit-content;
+	margin-right:6px ;
+	
+}
+.lock{
+	height: 1.1em;
+    width: .9em;
 }
