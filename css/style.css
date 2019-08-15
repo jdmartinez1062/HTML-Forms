@@ -47,33 +47,26 @@ table {
 }
 
 main #sign-in-div{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
+	
+	display:block;
+	height: 60px;
+	
+	
 }
 
 main div #sign-in {
 
-	width: 25%;
+	float:right;
+	text-align: center;
+	height: min-content;
 	display: flex;
-	flex-direction: row;
 	align-items: center;
-	align-content: center;
 
 }
-main div p {
+
+main div div p{
 
 	display: inline-block;
-	vertical-align: center;
-	text-align: center;
 	
-        
-}
-main div p a {
-
 	
-	vertical-align: center;
-	text-align: center;
-	 
 }
