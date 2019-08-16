@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <link href="" rel="stylesheet">
     <title>Sign Up Mint</title>
 </head>
 
@@ -21,7 +20,8 @@
                     <span>
                         <img class="lock" alt="Lock Image" src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png">
                     </span>
-                    <p id="sign-text">Sign In</p>
+
+                    <span id="sign-text">Sign In</span>
                 </button>
             </div>
        </div>
@@ -36,33 +36,32 @@
                 <p> turbotax</p>
             </div>
             
-            <p></p>
         </div>
-        <form action="">
+        <form>
             <fieldset>
                 <div id= "form-div">
                     <h3>Create an Intuit account</h3>
                     <p>One account for everything Intuit, including Mint.</p>
                     <a href="">Learn more</a>
-                    <label for="">
+                    <label>
                         Email address<br>
-                        <input type="text">
+                        <input type="email" name="email" required>
                     </label>
-                    <label for="" id="phone">
+                    <label id="phone">
                         Phone (recommended)<br>
-                        <input type="text">
-                        <p>Standard call, messaging or data rates may apply.</p>
+                        <input type="tel" required>
+                        <span>Standard call, messaging or data rates may apply.</span>
                     </label>
-                    <label id="" for="">
+                    <label>
                         Password<br>
-                        <input type="text">
+                        <input type="password" required>
                     </label>
                     <button class="sign-buttons" id="sign-up-button">
                         
                         <span>
                             <img class="lock" id="lock" alt="Lock Image" src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png">
                         </span>
-                        <p>Create Account</p>
+                        <span>Create Account</span>
                         
                     </button>
 

@@ -50,7 +50,7 @@ table {
 	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/**/
+/*Sign In section*/
 
 main div div p {
 	color: #505050;
@@ -119,6 +119,8 @@ span {
     width: .9em;
 }
 
+/*Logo section*/
+
 #logos img {
 	
 	height: 1.5em;
@@ -150,6 +152,15 @@ span {
 	margin-left: 5px;
 	font-weight: 100;
 }
+/*Form section*/
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: visible;
+	height:683px;
+}
 fieldset{
 
 	margin-top: 20px;
@@ -159,13 +170,6 @@ fieldset{
 	height:683px;
 	padding: 30px; 
 	overflow: visible;
-}
-form{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	overflow: visible;
-	height:683px;
 }
 #form-div h3{
 
@@ -218,10 +222,11 @@ form{
 	border: 1px solid #c7c7c7;
 	height:34px;
 }
-#form-div label p{
+#form-div label span{
 
 	display: inline-block;
 	font-size:10px;
+	background-color: transparent;
 }
 #sign-up-button {
 	width: 100%;
@@ -235,13 +240,10 @@ form{
 }
 #sign-up-button span {
 	align-self: center;
+	font-size: 15.75px;
 
 }
-#sign-up-button p {
-	align-self: center;
-	color: white;
-	font-size: 15.75px;
-}
+
 
 #form-div #terms{
 	color:#757575;
@@ -282,6 +284,9 @@ form fieldset #form-footer-div{
 	color: #8D9096;
 	
 }
+
+/*Footer section*/
+
 footer{
 
 	margin-top: 25px;
@@ -303,5 +308,4 @@ footer p{
 	color: #505050;
 	font-size: 12px;
 	text-align: center;
-
 }
