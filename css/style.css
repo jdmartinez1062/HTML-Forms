@@ -50,6 +50,8 @@ table {
 	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/**/
+
 main div div p {
 	color: #505050;
 	margin-right: 10px;
@@ -68,12 +70,14 @@ main div div a{
 }
 a{
 	text-decoration-line: none;
+	color:#0077c5;
 }
 
 main #sign-in-div{
 	
 	display:block;
 	height: 60px;
+	margin-bottom: 20px;
 	
 	
 }
@@ -141,7 +145,7 @@ span {
 #logos p {
 	font-size: 18px;
 	opacity: 1;
-	color: #6c6d72;
+	color: #858585;
 	margin-right: 10px;
 	margin-left: 5px;
 	font-weight: 100;
@@ -168,13 +172,13 @@ form{
 	color: #4c4c4c;
 	font-size: 24px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 23px;
 	
 }
 #form-div p{
 
 	color: #4c4c4c;
-	font-size: 13px;
+	font-size: 14px;
 	text-align: center;
 	
 }
@@ -185,13 +189,23 @@ form{
 	display:block;
 	margin-bottom: 20px;
 	
+	
 }
 #form-div label{
 
-	font-size: 13px;
+	font-size: 14px;
 	text-align: center;
 	display:block;
 	margin-bottom: 35px;
+	text-align: left;
+	color:#404040;
+}
+#form-div #phone{
+
+	font-size: 14px;
+	text-align: center;
+	display:block;
+	margin-bottom: 42px;
 	text-align: left;
 	color:#404040;
 	
@@ -231,10 +245,10 @@ form{
 
 #form-div #terms{
 	color:#757575;
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 18px;
 	font-style: italic;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 
 #form-div #terms a{
@@ -244,6 +258,7 @@ form{
 	line-height: 18px;
 	font-style: italic;
 }
+
 form fieldset #form-footer-div{
 
 	
@@ -254,6 +269,39 @@ form fieldset #form-footer-div{
 	margin: 0px -30px -30px -30px;
 
 }
+#form-footer-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+}
 #form-footer-div p{
+	
 	width:380px;
+	font-size: 10px;
+	color: #8D9096;
+	
+}
+footer{
+
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+footer div a{
+
+	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #505050;
+	font-size: 12px;
+
+}
+footer p{
+	line-height: 20px;
+	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #505050;
+	font-size: 12px;
+	text-align: center;
+
 }
