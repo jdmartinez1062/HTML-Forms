@@ -239,14 +239,14 @@ fieldset{
 	font-size: 11px;
 	font-style: italic;
 	line-height: 18px;
-	margin: 0px;
+	margin: 0;
 }
 
 form fieldset #form-footer-div{
 
 	background: #eceef1;
 	height: 52px;
-	margin: 0px -30px -30px -30px;
+	margin: 0 -30px -30px -30px;
 	overflow: visible;
 	width:380px;
 
