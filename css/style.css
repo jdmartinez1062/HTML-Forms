@@ -11,13 +11,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    vertical-align: baseline;
-    
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -95,15 +94,15 @@ main div #sign-in {
 	border-radius: 4px;
 	color: white;
 	display:flex;
-	height:34px;
 	flex-direction: row;
+	height:34px;
 	padding: 0 20px;
 	text-align: center;
 	width:105px;
 }
 span {
-	background-size: contain;
 	background-color: #0077c5;
+	background-size: contain;
 	margin-right:6px ;
 	width: fit-content;
 }
@@ -130,7 +129,7 @@ span {
 #logos {
 	display: flex;
 	flex-direction: column;
-	justify-items: center;
+	
 }
 #logos #main-logo {
 	align-self: center;
@@ -164,11 +163,11 @@ fieldset{
 	width:380px;
 		
 }
-#form-div h3{
+#form-div .title{
 	color: #4c4c4c;
 	font-size: 24px;
-	text-align: center;
 	margin-bottom: 23px;
+	text-align: center;
 }
 #form-div p{
 	color: #4c4c4c;
@@ -178,16 +177,16 @@ fieldset{
 #form-div a{
 	display:block;
 	font-size: 13px;
-	text-align: center;
 	margin-bottom: 20px;
+	text-align: center;
 }
 #form-div label{
+	color:#404040;
 	display:block;
 	font-size: 14px;
 	margin-bottom: 35px;
 	text-align: center;
 	text-align: left;
-	color:#404040;
 }
 #form-div #phone{
 	color:#404040; 
@@ -205,24 +204,23 @@ fieldset{
 	width:100%;
 }
 #form-div label span{
+	background-color: transparent;
 	display: inline-block;
 	font-size:10px;
-	background-color: transparent;
 }
 #sign-up-button {
  	align-items: center;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	height: 44px;
-	text-align: center;
+	justify-content: center;
 	margin-bottom: 43px;
+	text-align: center;
 	width: 100%;
 }
 #sign-up-button span {
 	align-self: center;
 	font-size: 15.75px;
-
 }
 
 
@@ -239,7 +237,7 @@ fieldset{
 	font-size: 11px;
 	font-style: italic;
 	line-height: 18px;
-	margin: 0;
+	
 }
 
 form fieldset #form-footer-div{
@@ -258,8 +256,8 @@ form fieldset #form-footer-div{
 	text-align: center;
 }
 #form-footer-div p{
-	font-size: 10px;
 	color: #8D9096;
+	font-size: 10px;
 	width:380px;
 }
 
