@@ -26,16 +26,13 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	background-color: #edeef2;
-	height:100vh;
-	line-height:1;
-	
+	height: 100vh;
+	line-height: 1;
 }
 ol, ul {
-	list-style:none;
-}
+	list-style: none;}
 blockquote, q {
-	quotes:none;
-}
+	quotes:none;}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -45,19 +42,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
+* {
 	box-sizing: border-box;
 	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /*Sign In section*/
 
-main div div p{
+main div div p {
 	color: #505050;
 	font-size: 12px;
 	margin-right: 10px;
 }
-main div div button .sign-text{
+main div div button .sign-text {
 	color: white;
 	font-size: 14px;
 	margin-right: 0;
