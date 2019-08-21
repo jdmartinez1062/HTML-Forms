@@ -60,7 +60,10 @@ main div div button .sign-text{
 	color: white;
 	font-size: 14px;
 	margin-right: 0;
+	height: fit-content;
+	width: fit-content;
 }
+
 main div div a{
 	color:#0077c5;
 	font-size: 12px;
@@ -92,18 +95,18 @@ main div .sign-in {
 	background: #0077C5;
 	border: 1px solid #4c4c4c;
 	border-radius: 4px;
-	box-sizing: border-box;
 	color: white;
 	display:flex;
 	flex-direction: row;
 	height:34px;
 	padding: 0 20px;
-	
 	width:105px;
 }
 span {
+	align-self: center;
 	background-color: #0077c5;
 	background-size: contain;
+	height:15px;
 	margin-right:6px ;
 	width: fit-content;
 }
