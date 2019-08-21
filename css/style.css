@@ -273,9 +273,9 @@ footer{
 footer div a{
 	color: #505050;
 	display: inline-block;
-	margin: 0 3px;
 	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
+	margin: 0 3px;
 }
 footer p{
 	color: #505050;
