@@ -92,6 +92,7 @@ main div .sign-in {
 	background: #0077C5;
 	border: 1px solid #4c4c4c;
 	border-radius: 4px;
+	box-sizing: border-box;
 	color: white;
 	display:flex;
 	flex-direction: row;
