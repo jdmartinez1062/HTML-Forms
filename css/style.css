@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	background-color: #edeef2;
 	height:100vh;
-	line-height: 1;	
+	line-height:1;	
 }
 ol, ul {
 	list-style: none;
@@ -131,7 +131,6 @@ span{
 .logos {
 	display: flex;
 	flex-direction: column;
-	
 }
 .logos .main-logo{
 	align-self: center;
@@ -163,7 +162,6 @@ fieldset{
 	overflow: visible;
 	padding: 30px; 
 	width:380px;
-		
 }
 .form-div .title{
 	color: #4c4c4c;
@@ -235,22 +233,18 @@ fieldset{
 }
 
 .form-div .terms a{
-
 	display: inline;
 	font-size: 11px;
 	font-style: italic;
 	line-height: 18px;
-	
 }
 
 form fieldset .form-footer-div{
-
 	background: #eceef1;
 	height: 52px;
 	margin: 0 -30px -30px -30px;
 	overflow: visible;
 	width:380px;
-
 }
 .form-footer-div {
 	align-items: center;
