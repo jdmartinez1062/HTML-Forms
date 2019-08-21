@@ -56,7 +56,7 @@ main div div p {
 	font-size: 12px;
 	margin-right: 10px;
 }
-main div div button #sign-text{
+main div div button .sign-text{
 	color: white;
 	font-size: 14px;
 	margin-right: 0;
@@ -72,13 +72,13 @@ a{
 	text-decoration-line: none;
 }
 
-main #sign-in-div{
+main .sign-in-div{
 	display:block;
 	height: 60px;
 	margin-bottom: 20px;
 }
 
-main div #sign-in {
+main div .sign-in {
 	align-items: center;
 	display: flex;
 	float:right;
@@ -88,7 +88,7 @@ main div #sign-in {
 }
 
 .sign-buttons {
-	align-items: center;
+	
 	background: #0077C5;
 	border: 1px solid #4c4c4c;
 	border-radius: 4px;
@@ -97,7 +97,7 @@ main div #sign-in {
 	flex-direction: row;
 	height:34px;
 	padding: 0 20px;
-	text-align: center;
+	
 	width:105px;
 }
 span {
@@ -113,12 +113,12 @@ span {
 
 /*Logo section*/
 
-#logos img {
+.logos img {
 	
 	height: 1.5em;
 	
 }
-#logos div {
+.logos div {
 	align-items: center;
 	align-self: center;
 	display: flex;
@@ -126,17 +126,17 @@ span {
 	margin-top: 20px;
 	width: fit-content;
 }
-#logos {
+.logos {
 	display: flex;
 	flex-direction: column;
 	
 }
-#logos #main-logo {
+.logos .main-logo {
 	align-self: center;
 	display: block;
 	height: 2.5em;
 }
-#logos p {
+.logos p {
 	color: #858585;
 	font-size: 18px;
 	font-weight: 100;
@@ -163,24 +163,24 @@ fieldset{
 	width:380px;
 		
 }
-#form-div .title{
+.form-div .title{
 	color: #4c4c4c;
 	font-size: 24px;
 	margin-bottom: 23px;
 	text-align: center;
 }
-#form-div p{
+.form-div p{
 	color: #4c4c4c;
 	font-size: 14px;
 	text-align: center;
 }
-#form-div a{
+.form-div a{
 	display:block;
 	font-size: 13px;
 	margin-bottom: 20px;
 	text-align: center;
 }
-#form-div label{
+.form-div label{
 	color:#404040;
 	display:block;
 	font-size: 14px;
@@ -188,7 +188,7 @@ fieldset{
 	text-align: center;
 	text-align: left;
 }
-#form-div #phone{
+.form-div .phone{
 	color:#404040; 
 	display:block;
 	font-size: 14px;
@@ -196,19 +196,19 @@ fieldset{
 	text-align: center;
 	text-align: left;
 }
-#form-div label input{
+.form-div label input{
 	border: 1px solid #c7c7c7;
 	border-radius: 3px;
 	height:34px;
 	margin-top: 13px;	
 	width:100%;
 }
-#form-div label span{
+.form-div label span{
 	background-color: transparent;
 	display: inline-block;
 	font-size:10px;
 }
-#sign-up-button {
+.sign-up-button {
  	align-items: center;
 	display: flex;
 	flex-direction: row;
@@ -218,13 +218,13 @@ fieldset{
 	text-align: center;
 	width: 100%;
 }
-#sign-up-button span {
+.sign-up-button span {
 	align-self: center;
 	font-size: 15.75px;
 }
 
 
-#form-div #terms{
+.form-div .terms{
 	color:#757575;
 	font-size: 12px;
 	font-style: italic;
@@ -232,7 +232,8 @@ fieldset{
 	margin-bottom: 35px;
 }
 
-#form-div #terms a{
+.form-div .terms a{
+
 	display: inline;
 	font-size: 11px;
 	font-style: italic;
@@ -240,7 +241,7 @@ fieldset{
 	
 }
 
-form fieldset #form-footer-div{
+form fieldset .form-footer-div{
 
 	background: #eceef1;
 	height: 52px;
@@ -249,13 +250,13 @@ form fieldset #form-footer-div{
 	width:380px;
 
 }
-#form-footer-div {
+.form-footer-div {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
 }
-#form-footer-div p{
+.form-footer-div p{
 	color: #8D9096;
 	font-size: 10px;
 	width:380px;
@@ -271,12 +272,15 @@ footer{
 }
 footer div a{
 	color: #505050;
+	display: inline-block;
+	margin: 0 3px;
 	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
 }
 footer p{
 	color: #505050;
 	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
 	line-height: 20px;
 	text-align: center;
 }
