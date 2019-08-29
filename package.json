@@ -1,0 +1,23 @@
+{
+  "name": "html-forms",
+  "version": "1.0.0",
+  "description": "[Microverse](https://www.microverse.org/) Second HTML and CSS Main Curriculum Project \"HTML Forms\"",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmartinez1062/HTML-Forms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdmartinez1062/HTML-Forms/issues"
+  },
+  "homepage": "https://github.com/jdmartinez1062/HTML-Forms#readme",
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0"
+  }
+}
